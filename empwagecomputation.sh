@@ -21,3 +21,15 @@ else
 	echo "Employee is Absent"
 fi
 
+	case $Check  in 
+		   1) echo "Employee is Full time Present "
+                EmployeeWage=$((8*20))
+                echo "Employee Full time Present wage is"$EmployeeWage
+                        ;;
+         2) echo "Employee is Parttime Present "
+                EmployeeWage=$((8*20))
+                echo "Employee Part time Present wage is"$EmployeeWage
+                                ;;
+        *) echo "Employee is absent"
+                echo "Salary is Zero"
+esac
