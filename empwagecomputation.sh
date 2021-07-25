@@ -1,6 +1,7 @@
 #!/bin/bash -x
 echo "Welcome to Employee Wage Computation Programm"
-
+function empwagecomputation()
+{
 ispresent=1
 isabsent=0
 isparttime=3
@@ -37,7 +38,8 @@ fi
 	EmployeeWage=0
                 echo "Employeewage is zero"
 esac
-
+}
+empwagecomputation ;
 Totalworkinghrs=$(($EmployeeWage*100))
 echo "Wages for Total working Hours of a month" $Totalworkinghrs
 
