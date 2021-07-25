@@ -48,3 +48,7 @@ TotalWage=$(($EmployeeWage*20))
 echo "The Total Wage is"$TotalWage
 echo "The Daily wage is $EmployeeWage And The Total Wage is $TotalWage"
 
+read -p "Enter the Days for the wages" n
+Days=$(($EmployeeWage*$n))
+echo "The Daily wage is $EmployeeWage.The Total Wage is"$TotalWage
+echo "The Daily wage is $EmployeeWage,The $n days for the wage is $Day and  The Total Wage for a 20DAYS:month is $TotalWage"
